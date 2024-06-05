@@ -1,0 +1,34 @@
+[
+    {
+        "title": "C#",
+        "imageSrc": "skills/CSharp.svg"
+    },
+    {
+        "title": "Python",
+        "imageSrc": "skills/Python.svg"
+    },
+    {
+        "title": "Rust",
+        "imageSrc": "skills/Rust.svg"
+    },
+    {
+        "title": "C++",
+        "imageSrc": "skills/CPlusPlus.svg"
+    },
+    {
+        "title": "JavaScript",
+        "imageSrc": "skills/JS.svg"
+    },
+    {
+        "title": "Elm",
+        "imageSrc": "skills/Elm.svg"
+    },
+    {
+        "title": "Godot",
+        "imageSrc": "skills/godot.svg"
+    },
+    {
+        "title": "Bevy",
+        "imageSrc": "skills/bevy.svg"
+    }
+]

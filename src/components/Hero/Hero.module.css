@@ -1,0 +1,103 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% 10%;
+    gap: 10%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 1em;
+    align-items: flex-start;
+    z-index: 1;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.description {
+    color: var(--color-text);
+    font-family: var(--font-roboto);
+    font-size: 1.5em;
+}
+
+.contactBtn {
+    text-decoration: none;
+    color: var(--color-text);
+    padding: 20px;
+    border-radius: 50px;
+    background: var(--color-primary);
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+.heroImg {
+    flex: 1;
+    border-radius: 100%;
+    z-index: 1;
+
+    animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .content {
+        align-items: center;
+    }
+}
+
+.topBlur {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    min-width: 350px;
+    top: -128px;
+    left: -10vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.bottomBlur {
+    position: absolute;
+    width: 70vw;
+    height: 50vw;
+    min-width: 350px;
+    min-width: 250px;
+    top: 246px;
+    right: -25vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
