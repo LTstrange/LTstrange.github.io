@@ -1,39 +1,35 @@
 [
     {
-        "title": "Project A",
-        "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
+        "title": "Siren Project",
+        "imageSrc": "projects/sirenlanguage.png",
+        "description": "This is a project to build and design my own programming language, called Siren language.",
         "skills": [
-            "React",
-            "Express",
-            "Node"
+            "Rust",
+            "AST",
+            "Compiler"
         ],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "source": "https://github.com/LTstrange/SirenLanguage"
     },
     {
-        "title": "Project B",
+        "title": "Simple BNF",
         "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
+        "description": "This is the project I'm trying to make my own BNF parser tool in pure python.",
         "skills": [
-            "React",
-            "Express",
-            "Node",
-            "Sass"
+            "Python",
+            "BNF"
         ],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "source": "https://github.com/LTstrange/SimpleBNF"
     },
     {
-        "title": "Project C",
-        "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
+        "title": "MCTS on Gobang",
+        "imageSrc": "projects/gobang-game-board.jpeg",
+        "description": "This is a project use Monte Carlo Tree Search to play Gobang.",
         "skills": [
-            "React",
-            "Express",
-            "Node"
+            "Rust",
+            "MCTS",
+            "AI",
+            "multi-threading"
         ],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "source": "https://github.com/LTstrange/SimpleBNF"
     }
 ]
