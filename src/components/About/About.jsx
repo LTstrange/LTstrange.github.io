@@ -32,7 +32,7 @@ export const About = () => {
                         <img src={getImageUrl("about/Game Maker.svg")} alt="game logo" />
                         <div>
                             <h3>Game Maker</h3>
-                            <p>I am an indie game developer, using Godot and Bevy to Build creative and engaging gaming experiences.</p>
+                            <p>I'm an indie game developer, using Godot and Bevy to Build creative and engaging gaming experiences.</p>
                         </div>
                     </li>
                 </ul>
